@@ -16,7 +16,7 @@
                         <?php echo sprintf(lang('update_message'), anchor($config['ci_download_link'], $ci_new_version, 'target="_blank"')) ?>
                     </p>
                 <?php endif ?>
-                <p><?php echo anchor($config['documentation_link'], 'CodeIgniter documentation', 'target="_blank"') ?></p>
+                <p><?php echo anchor(lang('documentation_link'), 'CodeIgniter documentation', 'target="_blank"') ?></p>
                 <p><?php echo sprintf(lang('develbar_version'), $develBar_version) ?></p>
                 <?php if($develbar_new_version !== FALSE): ?>
                     <p>

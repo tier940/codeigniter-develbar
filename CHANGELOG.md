@@ -1,3 +1,17 @@
+## 1.2.2 (2020-01-28)
+
+Add:
+
+- Support for japanese.
+
+Fix indent:
+- README.md
+- config/hooks.php
+- third_party/DevelBar/config/develbar.php
+
+Changes:
+- You can set $config['documentation_link'] the develbar_lang.php, and link fix.
+
 ## 1.2.1 (2018-06-20)
 
 Fix:
@@ -46,8 +60,8 @@ Changes:
 
 Bugfixes:
 
-  - Support of HMVC, Overriding core/MY_Loader.php
-  - Breaking view when adding config data which contains html tags
+- Support of HMVC, Overriding core/MY_Loader.php
+- Breaking view when adding config data which contains html tags
 
 ## 0.4 (2015-04-22)
 
@@ -55,4 +69,3 @@ Bugfixes:
 
 - Add translation packages for some languages ( French, German, Russian, Italian, Spanish )
 - Set the default translation to English if the translantion file does not exists.
-

@@ -1,0 +1,43 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['version_not_supported'] = '使用中のCodeIgniterではDevelBarを使用できません(Please check %s for update)';
+$lang['sec'] = '秒';
+$lang['request'] = 'リクエスト';
+$lang['method'] = 'メゾット';
+$lang['controller'] = 'コントローラ';
+$lang['action'] = 'アクション';
+$lang['function'] = 'ファンクション';
+$lang['parameters'] = 'パラメータ';
+$lang['database'] = 'データベース';
+$lang['total_execution_time'] = '合計実行時間';
+$lang['no_queries'] = 'クエリが実行されませんでした';
+$lang['benchmarks'] = 'ベンチマーク';
+$lang['hooks'] = 'ホック';
+$lang['libraries'] = 'ライブラリ';
+$lang['config'] = '設定値';
+$lang['session'] = 'セッション';
+$lang['helpers'] = 'ヘルパー';
+$lang['views'] = 'ビュー';
+$lang['models'] = 'モデル';
+$lang['memory_usage'] = '使用メモリ量';
+$lang['ci_version'] = 'CodeIgniterバージョン: %s';
+$lang['info'] = '情報';
+$lang['update_message'] = '新しい更新があります: %s';
+$lang['develbar_version'] = 'DevelBarバージョン: %s';
+$lang['php_version'] = 'PHPバージョン: %s';
+$lang['default_language'] = '既定言語: %s';
+
+$lang['ajax_requests'] = 'Ajaxリクエスト';
+$lang['status'] = 'ステータス';
+$lang['params'] = 'パラメータ';
+$lang['profiler'] = 'プロファイル';
+$lang['url'] = 'URL';
+$lang['type'] = 'タイプ';
+$lang['time'] = '時間';
+$lang['profiler_key_has_expired'] = 'プロファイラのキーが有効期限切れです :(';
+$lang['server'] = 'サーバ';
+$lang['queries'] = 'クエリ';
+$lang['key'] = 'キー';
+$lang['value'] = '値';
+
+$lang['documentation_link'] = 'https://codeigniter.jp/user_guide/3/';

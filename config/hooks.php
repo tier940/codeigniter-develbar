@@ -1,4 +1,6 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
 /*
 | -------------------------------------------------------------------------
 | Hooks
@@ -11,10 +13,10 @@
 */
 
 $hook['display_override'][] = array(
-	'class'  	=> 'Develbar',
-    'function' 	=> 'debug',
-    'filename' 	=> 'Develbar.php',
-    'filepath' 	=> 'third_party/DevelBar/hooks'
+    'class'     => 'Develbar',
+    'function'  => 'debug',
+    'filename'  => 'Develbar.php',
+    'filepath'  => 'third_party/DevelBar/hooks'
 );
 
 /* End of file hooks.php */

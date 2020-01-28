@@ -23,8 +23,6 @@ $config['check_update'] = TRUE;
 
 $config['profiler_key_expiration_time'] = 1800; // sec
 
-$config['documentation_link'] = 'http://www.codeigniter.com/userguide3/';
-
 $config['ci_website'] = 'http://www.codeigniter.com';
 
 $config['ci_download_link'] = 'http://www.codeigniter.com/download';
@@ -44,16 +42,16 @@ $config['develbar_download_link'] = 'https://github.com/JCSama/CodeIgniter-devel
 |
 */
 $config['develbar_sections'] = array(
-	'Benchmarks' 		=> TRUE,
-    'Memory Usage'	   	=> TRUE,
-    'Request'   		=> TRUE,
-    'Database'			=> TRUE,
-    'Hooks'				=> TRUE,
-    'Ajax' 			    => TRUE,
-    'Libraries'			=> TRUE,
-    'Helpers' 			=> TRUE,
-    'Views' 			=> TRUE,
-    'Config' 			=> TRUE,
-    'Session' 			=> TRUE,
-    'Models' 			=> TRUE,
+    'Benchmarks'    => TRUE,
+    'Memory Usage'  => TRUE,
+    'Request'       => TRUE,
+    'Database'      => TRUE,
+    'Hooks'         => TRUE,
+    'Ajax'          => TRUE,
+    'Libraries'     => TRUE,
+    'Helpers'       => TRUE,
+    'Views'         => TRUE,
+    'Config'        => TRUE,
+    'Session'       => TRUE,
+    'Models'        => TRUE,
 );

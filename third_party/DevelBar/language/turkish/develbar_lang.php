@@ -39,3 +39,5 @@ $lang['server'] = 'Sunucu';
 $lang['queries'] = 'Sorgular';
 $lang['key'] = 'Anahtar';
 $lang['value'] = 'Değer';
+
+$lang['documentation_link'] = 'https://codeigniter.com/en/docs/';

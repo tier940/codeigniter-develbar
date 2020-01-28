@@ -40,3 +40,4 @@ $lang['queries'] = 'Requetes';
 $lang['key'] = 'Clé';
 $lang['value'] = 'Valeur';
 
+$lang['documentation_link'] = 'https://codeigniter.com/en/docs/';

@@ -12,7 +12,7 @@ CodeIgniter Developer Toolbar is a third party library based on Profiler Library
 
 # Installation
 
-CodeIgniter Versoin >= 2.2.0
+CodeIgniter Versoin >= 3.2.0
 
 Copy the files to the `application/third_party/DevelBar` folder.
 
@@ -47,10 +47,10 @@ Open `application/config/hooks.php` and add this line :
 
 ```php
 $hook['display_override'][] = array(
-	'class'  	=> 'Develbar',
-    'function' 	=> 'debug',
-    'filename' 	=> 'Develbar.php',
-    'filepath' 	=> 'third_party/DevelBar/hooks'
+    'class'     => 'Develbar',
+    'function'  => 'debug',
+    'filename'  => 'Develbar.php',
+    'filepath'  => 'third_party/DevelBar/hooks'
 );
 ```
 
@@ -68,18 +68,18 @@ Open `application/third_party/DevelBar/config/config.php`, and set the sections 
 
 ```php
 $config['develbar_sections'] = array(
-	'Benchmarks' 		=> TRUE,
-    'Memory Usage'	   	=> TRUE,
-    'Request'   		=> TRUE,
-    'Database'			=> TRUE,
-    'Hooks'				=> FALSE, // Disable Hooks Section
-    'Libraries'			=> TRUE,
-    'Helpers' 			=> FALSE, // Disable Helpers Section,
-    'Views' 			=> TRUE,
-    'Config' 			=> TRUE,
-    'Session' 			=> TRUE,
-    'Models' 			=> TRUE,
-    'Ajax'                      > TRUE,
+    'Benchmarks'    => TRUE,
+    'Memory Usage'  => TRUE,
+    'Request'       => TRUE,
+    'Database'      => TRUE,
+    'Hooks'         => FALSE, // Disable Hooks Section
+    'Libraries'     => TRUE,
+    'Helpers'       => FALSE, // Disable Helpers Section,
+    'Views'         => TRUE,
+    'Config'        => TRUE,
+    'Session'       => TRUE,
+    'Models'        => TRUE,
+    'Ajax'          => TRUE,
 );
 ```
 To auto check for available new version of CodeIgniter and DeveloperToolbar, you should set `check_update` option to `TRUE`,
