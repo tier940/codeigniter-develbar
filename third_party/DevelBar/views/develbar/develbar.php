@@ -1,4 +1,4 @@
-<!-- START CodeIgniter Developer Toolbar -->
+<!-- START Codeigniter Developer Toolbar -->
 <style type="text/css">
     <?php echo $css ?>
 </style>
@@ -7,7 +7,7 @@
 </script>
 <div class="develbar" id="develbar-container">
     <ul class="develbar-nav">
-        <li class="none" onclick="HideDevelBar()"><img src="<?php echo $logo ?>" alt="CodeIgniter" />
+        <li class="none" onclick="HideDevelBar()"><img src="<?php echo $logo ?>" alt="Codeigniter" />
             <div class="detail">
                 <p><?php echo sprintf(lang('ci_version'), $ci_version) ?></p>
                 <?php if($ci_new_version !== FALSE): ?>
@@ -16,7 +16,7 @@
                         <?php echo sprintf(lang('update_message'), anchor($config['ci_download_link'], $ci_new_version, 'target="_blank"')) ?>
                     </p>
                 <?php endif ?>
-                <p><?php echo anchor(lang('documentation_link'), 'CodeIgniter documentation', 'target="_blank"') ?></p>
+                <p><?php echo anchor(lang('documentation_link'), 'Codeigniter documentation', 'target="_blank"') ?></p>
                 <p><?php echo sprintf(lang('develbar_version'), $develBar_version) ?></p>
                 <?php if($develbar_new_version !== FALSE): ?>
                     <p>
@@ -35,6 +35,6 @@
         <?php endif ?>
     </ul>
 </div>
-<div onclick="ShowDevelBar()" id="develbar-off"><img src="<?php echo $logo ?>" alt="CodeIgniter" />
+<div onclick="ShowDevelBar()" id="develbar-off"><img src="<?php echo $logo ?>" alt="Codeigniter" />
 
-<!-- END CodeIgniter Developer Toolbar -->
+<!-- END Codeigniter Developer Toolbar -->
