@@ -1,16 +1,28 @@
+## 1.2.3 (2020-02-09)
+
+Fix:
+- third_party/views/develbar/ajax.php
+
+Changes:
+
+- Ajax request no name fix.
+
 ## 1.2.2 (2020-01-28)
 
 Add:
 
 - Support for japanese.
 
-Fix indent:
+Fix:
+
 - README.md
 - config/hooks.php
 - third_party/DevelBar/config/develbar.php
 
 Changes:
+
 - You can set $config['documentation_link'] the develbar_lang.php, and link fix.
+- Iindent fix.
 
 ## 1.2.1 (2018-06-20)
 

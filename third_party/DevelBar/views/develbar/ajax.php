@@ -2,7 +2,7 @@
     var cidvl_siteurl = '<?php echo site_url(); ?>';
 </script>
 <img src="<?php echo $icon ?>" alt="<?php echo lang('ajax_requests') ?>"
-     title="<?php echo lang('ajax_requests') ?>"/> <span class="ci-toolbar-ajax-requests"></span>
+     title="<?php echo lang('ajax_requests') ?>"/> <?php echo lang('ajax_requests') ?> <span class="ci-toolbar-ajax-requests"></span>
 <div class="detail ajax ci-toolbar-block-ajax">
     <div class="scroll">
         <p class="ci-toolbar-ajax-info"></p>
