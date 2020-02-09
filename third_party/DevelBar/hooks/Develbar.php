@@ -38,7 +38,7 @@ class Develbar
     /**
      * DevelBar version
      */
-    const VERSION = '1.2.1';
+    const VERSION = '1.2.4';
 
     /**
      * Supported CI version
@@ -414,22 +414,19 @@ class Develbar
         $hooks = array();
 
         foreach ($this->CI->hooks->hooks as $hook_point => $_hooks) {
-            if (is_callable($_hooks)) {
-                $hooks[$hook_point][] = 'Closure';
-                $total_hooks++;
-                continue;
-            }
-            if (!isset($_hooks[0])) {
-                $_hooks = array($_hooks);
-            }
-            foreach ($_hooks as $hook) {
-                if (!array_key_exists('class', $hook)) {
-                    $hooks[$hook_point][] = $hook;
-                    $total_hooks++;
+            if (is_array($_hooks)) {
+                if (!isset($_hooks[0])) {
+                    $_hooks = array($_hooks);
                 }
-                elseif (class_exists($hook['class']) && get_class($this) != $hook['class']) {
-                    $hooks[$hook_point][] = $hook;
-                    $total_hooks++;
+                foreach ($_hooks as $hook) {
+                    if (!array_key_exists('class', $hook)) {
+                        $hooks[$hook_point][] = $hook;
+                        $total_hooks++;
+                    }
+                    elseif (class_exists($hook['class']) && get_class($this) != $hook['class']) {
+                        $hooks[$hook_point][] = $hook;
+                        $total_hooks++;
+                    }
                 }
             }
         }

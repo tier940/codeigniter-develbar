@@ -1,7 +1,16 @@
+## 1.2.4 (2020-02-10)
+
+Fix:
+- third_party/Develbar/hooks/Develbar.php
+
+Changes:
+
+- allow closure usage.
+
 ## 1.2.3 (2020-02-09)
 
 Fix:
-- third_party/views/develbar/ajax.php
+- third_party/Develbar/views/ajax.php
 
 Changes:
 
